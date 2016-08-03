@@ -1,5 +1,5 @@
 # HRMake
-DescriptionDeDescriptionDeDescriptionDeDescriptionDeDescriptionDeDescriptionDeDescriptionDe
+Automagically generate Xcode Projects via CLI
 
 ## Installation
 

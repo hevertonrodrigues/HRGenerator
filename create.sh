@@ -98,7 +98,7 @@ do
     grep "${OLDORGANIZATION}" "${currFile}" > /dev/null
     if [ $? -eq 0 ]; then
        sed -e "s/${OLDORGANIZATION}/${ORGANIZATION}/g" "${currFile}" > ${TMPFILE}
-       mv ${TMPFILE} "${currFile}"
+       mv ${TMPFILE} "${currFile}" 2> /dev/null
        cp /dev/null ${TMPFILE}
     fi
 
@@ -106,7 +106,7 @@ do
     grep "${OLDBUNDLE}" "${currFile}" > /dev/null
     if [ $? -eq 0 ]; then
        sed -e "s/${OLDBUNDLE}/${BUNDLEID}/g" "${currFile}" > ${TMPFILE}
-       mv ${TMPFILE} "${currFile}"
+       mv ${TMPFILE} "${currFile}" 2> /dev/null
        cp /dev/null ${TMPFILE}
     fi
 
@@ -116,7 +116,7 @@ do
     grep "${OLDNAME}" "${currFile}" > /dev/null
     if [ $? -eq 0 ]; then
        sed -e "s/${OLDNAME}/${NEWNAME}/g" "${currFile}" > ${TMPFILE}
-       mv ${TMPFILE} "${currFile}"
+       mv ${TMPFILE} "${currFile}" 2> /dev/null
        cp /dev/null ${TMPFILE}
     fi
 

@@ -15,7 +15,7 @@
 # Usage:
 #
 #   sudo chmod +x create.sh
-#   create.sh and follow the steps
+#   ./create.sh and follow the steps
 #
 ################################################################################
 

@@ -1,10 +1,15 @@
-HRMake
----------------
+# HRMake
+DescriptionDeDescriptionDeDescriptionDeDescriptionDeDescriptionDeDescriptionDeDescriptionDe
 
+## Installation
 
-__Usage:__
+## Usage
 
-
-`sudo chmod +x create.sh`
-
-`./create.sh and follow the steps`
+**1.** Open the folder where you downloaded HRMake and run:
+``` ruby
+sudo chmod +x create.sh
+```
+**2.** Run and follow the steps:
+``` ruby
+./create.sh
+```

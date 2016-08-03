@@ -1,4 +1,4 @@
-# HRMake
+# HRGenerator
 Automagically generate Xcode Projects via CLI
 
 ## Installation

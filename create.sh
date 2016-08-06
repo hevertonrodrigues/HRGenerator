@@ -55,7 +55,12 @@ if [ $? -eq 0 ]; then
 fi
 
 
-tar -zxf "projects/$OLDNAME.tar.gz"
+if  [[ $1 = "-v" ]]; then
+  tar -zxvf "projects/$OLDNAME.tar.gz"
+else
+  tar -zxf "projects/$OLDNAME.tar.gz"
+fi
+
 
 
 #Validations
